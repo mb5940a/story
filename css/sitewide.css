@@ -34,10 +34,6 @@ body {
 	color: white;
 }
 
-p {
-	/*text-indent: 2em;*/
-}
-
 h1 {
 	font-family: 'Arvo', "Times", serif;
 	font-size: 20vh;
@@ -52,8 +48,6 @@ h2 {
 	font-weight: 500;
 	line-height: 1em;
 	color: #518C16;
-
-
 }
 
 h3 {
@@ -95,9 +89,6 @@ grid-row: 1 / 2;
 		text-decoration: none;
 		background-color: #A5A5A5;
 		transition: 0.5s;
-		/*border-radius: 25px;
-		border-right: 1px solid #fff;
-		border-bottom: 1px solid #fff;*/
 	}
 
 	.global-nav li a:hover {
@@ -112,15 +103,18 @@ grid-row: 1 / 2;
 		transition: 1s;
 	}
 
-	/*.global-nav .link-home {
-		flex: 3 1 200px;
+	footer {
+		text-align: center;
+		margin-top: 70px;
+		background-color: #518C16;
 	}
-*/
+
 .bodytext {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 }
 
+/*History*/
 .coverimg {
 	background-image: url("../img/united_habitude.jpg");
   background-repeat: no-repeat;
@@ -132,26 +126,23 @@ grid-template-columns: 1fr 1fr 1fr;
 	grid-column: 1 / 4;
 	grid-row: 1 / 10;
 }
-
 .img1 {
-	background-image: url("../img/united_habitude.jpg");
-  background-repeat: no-repeat;
-  min-width: 300px;
-  height: 30em;
-	background-size: cover;
-	grid-column: 0 / 2;
-	margin-top: 50px;
-}
-.img2 {
 	background-image: url("../img/villagoth.jpg");
   background-repeat: no-repeat;
   min-width: 300px;
   height: 30em;
 	background-size: cover;
 	grid-column: 0 / 2;
-	margin-top: 50px;
+	margin-top: 70px;
 }
-
+.img2 {
+	background-image: url("../img/newbrut.jpg");
+  background-repeat: no-repeat;
+  height: 30em;
+	background-size: cover;
+	grid-column: 3 / 4;
+	margin-top: 70px;
+}
 .img3 {
 	background-image: url("../img/corbusier.jpg");
   background-repeat: no-repeat;
@@ -159,19 +150,259 @@ grid-template-columns: 1fr 1fr 1fr;
   height: 30em;
 	background-size: cover;
 	grid-column: 0 / 2;
-	margin-top: 50px;
+	margin-top: 70px;
 }
-
 .img4 {
 	background-image: url("../img/robinhood.jpg");
+  background-repeat: no-repeat;
+  height: 30em;
+	background-size: cover;
+	grid-column: 3 / 4;
+	margin-top: 70px;
+}
+
+/*Characteristicjs*/
+.coverimg2 {
+	background-image: url("../img/barbican1.jpg");
+  background-repeat: no-repeat;
+  min-width: 600px;
+  height: 45em;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	grid-column: 1 / 4;
+	grid-row: 1 / 10;
+}
+.img21 {
+	background-image: url("../img/trellick.jpg");
+  background-repeat: no-repeat;
+  min-width: 300px;
+  height: 35em;
+	background-size: cover;
+	grid-column: 0 / 2;
+	margin-top: 100px;
+}
+.img22 {
+	background-image: url("../img/concrete.jpg");
+  background-repeat: no-repeat;
+	min-width: 500px;
+  height: 30em;
+	background-size: cover;
+	grid-column: 3 / 4;
+	margin-top: 100px;
+}
+.img23 {
+	background-image: url("../img/boston.jpg");
+  background-repeat: no-repeat;
+  min-width: 350px;
+  height: 30em;
+	background-size: cover;
+	grid-column: 0 / 2;
+	margin-top: 100px;
+}
+.img24 {
+	background-image: url("../img/stalin.jpg");
+  background-repeat: no-repeat;
+	min-width: 350px;
+  height: 32em;
+	background-size: cover;
+	grid-column: 3 / 4;
+	margin-top: 100px;
+}
+
+/*Designers*/
+.coverimg3 {
+	background-image: url("../img/blueprint.jpg");
+  background-repeat: no-repeat;
+  min-width: 600px;
+  height: 45em;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	grid-column: 1 / 4;
+	grid-row: 1 / 10;
+}
+.img31 {
+	background-image: url("../img/rudolph.jpg");
+  background-repeat: no-repeat;
+  min-width: 350px;
+  height: 30em;
+	background-size: cover;
+	grid-column: 0 / 2;
+	margin-top: 100px;
+}
+.img32 {
+	background-image: url("../img/miles.jpg");
+  background-repeat: no-repeat;
+	min-width: 350px;
+  height: 30em;
+	background-size: cover;
+	grid-column: 3 / 4;
+	margin-top: 100px;
+}
+.img33 {
+	background-image: url("../img/vigano.jpg");
+  background-repeat: no-repeat;
+  min-width: 350px;
+  height: 30em;
+	background-size: cover;
+	grid-column: 0 / 2;
+	margin-top: 100px;
+}
+.img34 {
+	background-image: url("../img/testa.jpg");
+  background-repeat: no-repeat;
+	min-width: 450px;
+	height: 28em;
+	background-size: cover;
+	grid-column: 3 / 4;
+	margin-top: 100px;
+}
+
+/*Criticism*/
+.coverimg4 {
+	background-image: url("../img/queenflat.jpg");
+  background-repeat: no-repeat;
+  min-width: 600px;
+  height: 45em;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	grid-column: 1 / 4;
+	grid-row: 1 / 10;
+}
+.img41 {
+	background-image: url("../img/demolition.jpg");
   background-repeat: no-repeat;
   min-width: 300px;
   height: 30em;
 	background-size: cover;
 	grid-column: 0 / 2;
-	margin-top: 50px;
+	margin-top: 100px;
+}
+.img42 {
+	background-image: url("../img/graffiti.jpg");
+  background-repeat: no-repeat;
+  min-width: 300px;
+	height: 30em;
+	background-size: cover;
+	grid-column: 3 / 4;
+	margin-top: 100px;
+}
+.img43 {
+	background-image: url("../img/park.jpg");
+  background-repeat: no-repeat;
+  min-width: 400px;
+  height: 30em;
+	background-size: cover;
+	grid-column: 0 / 2;
+	margin-top: 100px;
+}
+.img44 {
+	background-image: url("../img/tesco.jpg");
+  background-repeat: no-repeat;
+  height: 30em;
+	min-width: 400px;
+	background-size: cover;
+	grid-column: 3 / 4;
+	margin-top: 100px;
 }
 
+/*Unis*/
+.coverimg5 {
+	background-image: url("../img/geisellib.jpg");
+  background-repeat: no-repeat;
+  min-width: 600px;
+  height: 45em;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	grid-column: 1 / 4;
+	grid-row: 1 / 10;
+}
+.img51 {
+	background-image: url("../img/umass.jpg");
+  background-repeat: no-repeat;
+  min-width: 350px;
+  height: 30em;
+	background-size: cover;
+	grid-column: 0 / 2;
+	margin-top: 100px;
+}
+.img52 {
+	background-image: url("../img/harris.jpg");
+  background-repeat: no-repeat;
+	min-width: 350px;
+  height: 30em;
+	background-size: cover;
+	grid-column: 3 / 4;
+	margin-top: 100px;
+}
+.img53 {
+	background-image: url("../img/andrews.jpg");
+  background-repeat: no-repeat;
+  min-width: 300px;
+  height: 30em;
+	background-size: cover;
+	grid-column: 0 / 2;
+	margin-top: 100px;
+}
+.img54 {
+	background-image: url("../img/uni1.jpg");
+  background-repeat: no-repeat;
+	min-width: 400px;
+  height: 30em;
+	background-size: cover;
+	grid-column: 3 / 4;
+	margin-top: 100px;
+}
+
+/*Unis*/
+.coverimg6 {
+	background-image: url("../img/bostoncityhall.jpg");
+  background-repeat: no-repeat;
+  min-width: 600px;
+  height: 45em;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	grid-column: 1 / 4;
+	grid-row: 1 / 10;
+}
+.img61 {
+	background-image: url("../img/trellick.jpg");
+  background-repeat: no-repeat;
+  min-width: 300px;
+  height: 30em;
+	background-size: cover;
+	grid-column: 0 / 2;
+	margin-top: 70px;
+}
+.img62 {
+	background-image: url("../img/newbrut.jpg");
+  background-repeat: no-repeat;
+  height: 30em;
+	background-size: cover;
+	grid-column: 3 / 4;
+	margin-top: 70px;
+}
+.img63 {
+	background-image: url("../img/corbusier.jpg");
+  background-repeat: no-repeat;
+  min-width: 300px;
+  height: 30em;
+	background-size: cover;
+	grid-column: 0 / 2;
+	margin-top: 70px;
+}
+.img64 {
+	background-image: url("../img/robinhood.jpg");
+  background-repeat: no-repeat;
+  height: 30em;
+	background-size: cover;
+	grid-column: 3 / 4;
+	margin-top: 70px;
+}
 
 .header {
 	grid-column: 1 / 4;
@@ -186,22 +417,26 @@ grid-template-columns: 1fr 1fr 1fr;
 	margin-left: 10%;
 }
 .p2 {
-	grid-column: 2 / 4;
+	grid-column: 1 / 3;
 	text-align: left;
+	min-width: 150px;
 	margin-right: 10%;
 	margin-left: 10%;
+	margin-top: 70px;
 }
 .p3 {
 	grid-column: 2 / 4;
 	text-align: left;
 	margin-right: 10%;
 	margin-left: 10%;
+	margin-top: 70px;
 }
 .p4 {
-	grid-column: 2 / 4;
+	grid-column: 1 / 3;
 	text-align: left;
 	margin-right: 10%;
 	margin-left: 10%;
+	margin-top: 70px;
 }
 .p5 {
 	grid-column: 2 / 4;
@@ -210,27 +445,7 @@ grid-template-columns: 1fr 1fr 1fr;
 	margin-left: 10%;
 }
 
-.title2 {
-text-align: center;
-}
 
-/* Rectangle */
-
-
-/*.line {
-position: static;
-width: 500px;
-height: 2px;
-
-background-color: #518C16;
-transform: rotate(-90deg);
-}
-*/
-/*	Generally, you will only want one container element in
-	the document, wrapping around the main content area.
-	If you have more than one container, you are probably doing
-	something wrong.
-*/
 .container {
 background-color: black;
   background-repeat: no-repeat;
@@ -238,12 +453,13 @@ background-color: black;
 }
 
 
-
-/* ------------------------------------------------------------ */
-/* media query containing styles for larger screens */
-@media (min-width: 720px) {
+@media (min-width: 875px) {
 
 	/* container on larger screens */
+
+	body {
+		font-size: 18px;
+	}
 	.container {
 		width: 100%;
 		border: 1px solid #ddd;
@@ -252,18 +468,98 @@ background-color: black;
 		margin-left: 10%;
 	}
 	.img2{
-		margin-left: 10%;
+		margin-right: 10%;
 	}
 	.img3 {
 		margin-left: 10%;
 	}
 	.img4 {
+		margin-right: 10%;
+	}
+	.img21{
 		margin-left: 10%;
 	}
+	.img22{
+		margin-right: 10%;
+	}
+	.img23 {
+		margin-left: 10%;
+	}
+	.img24 {
+		margin-right: 10%;
+	}
+	.img31{
+		margin-left: 10%;
+	}
+	.img32{
+		margin-right: 10%;
+	}
+	.img33 {
+		margin-left: 10%;
+	}
+	.img34 {
+		margin-right: 10%;
+	}
+	.img41{
+		margin-left: 10%;
+	}
+	.img42{
+		margin-right: 10%;
+	}
+	.img43 {
+		margin-left: 10%;
+	}
+	.img44 {
+		margin-right: 10%;
+	}
+	.img51{
+		margin-left: 10%;
+	}
+	.img52{
+		margin-right: 10%;
+	}
+	.img53 {
+		margin-left: 10%;
+	}
+	.img54 {
+		margin-right: 10%;
+	}
+	.img61{
+		margin-left: 10%;
+	}
+	.img62{
+		margin-right: 10%;
+	}
+	.img63 {
+		margin-left: 10%;
+	}
+	.img64 {
+		margin-right: 10%;
+	}
+
+.p1{
+	max-width: 900px;
+}
+.p2{
+	max-width: 1100px;
+	/*grid-column: 2 / 3;*/
+}
+.p3{
+	max-width: 900px;
+	/*grid-column: 2 / 3;*/
+}
+.p4{
+	max-width: 1100px;
+	/*grid-column: 2 / 3;*/
+}
+.p5{
+	max-width: 900px;
+}
+
 
 } /* end media query */
 
-@media (max-width: 720px) {
+@media (max-width: 875px) {
 
 	/* container on smaller screens */
 	.container {
@@ -274,15 +570,32 @@ h1 {
 }
 
 h2 {
-position: center;
+text-align: center;
 font-size: 60px;
 }
 .coverimg {
 	height: 30em;
 	position: center;
 }
-
-.img1 {
+.coverimg2 {
+	height: 30em;
+	position: center;
+}
+.coverimg3 {
+	height: 30em;
+	position: center;
+}
+.coverimg4 {
+	height: 30em;
+	position: center;
+}
+.coverimg5 {
+	height: 30em;
+	position: center;
+}
+.coverimg6 {
+	height: 30em;
+	position: center;
 }
 
 .bodytext {
@@ -296,7 +609,6 @@ position: center;
 }
 
 .global-nav ul {
-	position: fixed;
 	top: 0px;
 	display: flex;
 	padding: 0;
