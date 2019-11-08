@@ -3,7 +3,7 @@ Brutalist Architecture
 Code By Miles Boynton
 Images Cited Below, all of which have been modified/edited by Miles Boynton
 
-Web Address:
+Web Address: https://mb5940a.github.io/story/index.html
 
 IMGS:
 ---Home/Index----
