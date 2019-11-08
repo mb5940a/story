@@ -1,10 +1,16 @@
 Story -Miles Boynton
+Brutalist Architecture
+Code By Miles Boynton
+Images Cited Below, all of which have been modified/edited by Miles Boynton
+
 Web Address:
 
-STUDENTS: edit this file. Add text that describes your project. Include your name, web address, code/image citations, and any notes.
-
 IMGS:
-Home/Index:
+---Home/Index----
+Author: Taxiarchos228
+CC BY-SA 3.0
+URL: https://commons.wikimedia.org/w/index.php?curid=11829063
+Habitat 67
 
 ---History---
 
@@ -129,42 +135,31 @@ URL: https://commons.wikimedia.org/w/index.php?curid=970163
 
 
 ---Today---
+Author: Hpeterswald
+Own work, CC BY-SA 4.0,
+URL:https://commons.wikimedia.org/w/index.php?curid=36633042
+Sirius APT complex in Sydney
+
+Author: EDITED BY OLIVER ELSER, PHILIP KURZ, AND PETER CACHOLA SCHMAL
+Distributed for Park Books
+Public Domain
+URL: https://www.press.uchicago.edu/ucp/books/book/distributed/S/bo28238472.html
+SOS Brutalism
+
 Author: Dr Greg
 Public Domain, CC BY 3.0,
 URL:https://commons.wikimedia.org/w/index.php?curid=3469011
-"After two unsuccessful proposals to demolish Preston bus station (Lancashire, UK), it gained Grade II listed building status in September 2013"
+Preston Bus Stop
 
+Author: Gunnar Klack
+Own work, CC BY-SA 4.0,
+URL: https://commons.wikimedia.org/w/index.php?curid=57241174
+Pirelli
+
+Author: andrewbasterfield
+Some rights reserved, labeled for reuse with modification
+URL: https://flic.kr/p/b99scD
+Park Hill
 
 **************************************************************************************************************************************************
-******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
-----------
-Author:Daniel Schwen
-Public Domain, CC BY-SA 4.0
-URL:https://commons.wikimedia.org/wiki/File:Boston_city_hall.jpg#/media/File:Boston_city_hall.jpg
-Boston City Hall
-
-Author:Vassgergely
-Public Domain, CC BY-SA 3.0
-URL:https://commons.wikimedia.org/wiki/File:Habitat_panorama.jpg#/media/File:Habitat_panorama.jpg
-Habitat67
-
-Author:David Schalliol via sah1365 -
-Public Domain, CC BY-SA 2.0
-URL:https://commons.wikimedia.org/wiki/File:Buffalo_City_Court_Building,_1971-74,_Pfohl,_Roberts_and_Biggie_(8448022295).jpg#/media/File:Buffalo_City_Court_Building,_1971-74,_Pfohl,_Roberts_and_Biggie_(8448022295).jpg
-Buffalo City Court Building
-
-Author: Błażej Pindor
-Own work, CC BY-SA 3.0
-URL: https://commons.wikimedia.org/w/index.php?curid=7686393
-Western City Gate, Belgrade, Serbia
-### About this folder
-
-Put the files that you would upload to a webserver in this folder. InDesign, Illustrator, Photoshop, Sketch, and Figma files do not belong here, nor do original high-resolution images.
-
-### More on the web1-basic starter project
-
-Original project compiled by [David Ramos](http://imaginaryterrain.com).
-
-The code structure is designed for clarity rather than for browser performance. (Notably, we break CSS out into several files, to help keep code organized.)
-
-This project includes elements from HTML5 Boilerplate (see css/vendor/h5bp_README.md for more).
+**************************************************************************************************************************************************************

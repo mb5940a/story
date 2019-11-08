@@ -357,9 +357,9 @@ grid-template-columns: 1fr 1fr 1fr;
 	margin-top: 100px;
 }
 
-/*Unis*/
+/*Today*/
 .coverimg6 {
-	background-image: url("../img/bostoncityhall.jpg");
+	background-image: url("../img/sirius.jpg");
   background-repeat: no-repeat;
   min-width: 600px;
   height: 45em;
@@ -370,35 +370,37 @@ grid-template-columns: 1fr 1fr 1fr;
 	grid-row: 1 / 10;
 }
 .img61 {
-	background-image: url("../img/trellick.jpg");
+	background-image: url("../img/sos.jpg");
   background-repeat: no-repeat;
-  min-width: 300px;
+  min-width: 400px;
   height: 30em;
 	background-size: cover;
 	grid-column: 0 / 2;
 	margin-top: 70px;
 }
 .img62 {
-	background-image: url("../img/newbrut.jpg");
+	background-image: url("../img/parkhill2.jpg");
   background-repeat: no-repeat;
+	min-width: 350px;
   height: 30em;
 	background-size: cover;
 	grid-column: 3 / 4;
 	margin-top: 70px;
 }
 .img63 {
-	background-image: url("../img/corbusier.jpg");
+	background-image: url("../img/pirelli.jpg");
   background-repeat: no-repeat;
-  min-width: 300px;
+  min-width: 350px;
   height: 30em;
 	background-size: cover;
 	grid-column: 0 / 2;
 	margin-top: 70px;
 }
 .img64 {
-	background-image: url("../img/robinhood.jpg");
+	background-image: url("../img/preston.jpg");
   background-repeat: no-repeat;
   height: 30em;
+	min-width: 350px;
 	background-size: cover;
 	grid-column: 3 / 4;
 	margin-top: 70px;
